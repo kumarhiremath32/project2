@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body class="body">
+    <form action="" netlify>
+        
+     <fieldset class="field" >
+        <legend class="head">Personal Details</legend><br>
+
+        <section>
+            
+        <nav class="personal-feild">
+     <div>
+        <label class="personal-label"for="uname">First Name</label>
+        <input name="first-name:" class="personal-input" type="text" id="uname" placeholder="Enter your first name" required pattern="[A-Za-z]{3,8}" >
+    </div>
+
+    <div>
+        <label class="personal-label"for="lname">Last Name</label>
+        <input name="last-name:" class="personal-input" type="text" id="lname" placeholder="Enter your last name" required pattern="[A-Za-z]{1,5}">
+    </div>
+
+    <div>
+        <label class="personal-label"for="dob">DOB</label>
+        <input name="dob:" class="personal-input" type="date" id="dob" required>
+    </div>
+
+    <div>
+        <label class="personal-label"for="email">Email</label>
+        <input name="email:" class="personal-input" type="email" id="email" placeholder="Enter your email" required >
+    </div>
+
+     <div>
+        <label class="personal-label"for="phone">Phone Number</label>
+       <input name="phone-number:" class="personal-input" type="text" id="phone" placeholder="Enter your number" required pattern="[6-9]{1}[0-9]{9}">
+    </div>
+</nav>
+
+</section>
+</fieldset>
+<nav class="mobil-response" >
+    <fieldset class="back">
+        <legend class="education-head">Education Details</legend>
+        <section class="education-field">
+        <div class="department" >
+        <label for=""><b>Department</b></label><br><br><br>
+        </div>
+      <nav class="eduction-card">   
+
+            <div class="department-lead">
+
+        <input  type="radio" id="cs" name="dept:" required>
+        <label for="cs">CS</label>
+        
+
+        <input  type="radio" id="ec" name="dept:" required>
+        <label for="ec">EC</label>
+
+  
+        <input  type="radio" id="mach" name="dept:" required>
+        <label for="mach">MACH</label>
+
+        <input  type="radio" id="civil" name="dept:" required>
+        <label for="civil">CIVIL</label><br><br>
+    </div>
+
+    <div class="yop">
+        <label for=""><b>YEAR OF PASSING</b></label>
+        <input name="passing:" list="yop" required>
+        <datalist id="yop">
+        <option>2018</option>
+        <option>2019</option>
+        <option>2020</option>
+        <option>2021</option>
+        <option>2022</option>
+        <option>2023</option>
+        <option>2024</option>
+        <option>2025</option>
+    </datalist><br><br>
+</div>
+ 
+    <label class="skill" for=""><b>Skills</b></label><br><br>
+
+<div class="skill-lead">
+
+     <input name="c:" type="checkbox" id="c">
+    <label for="c">C</label>
+
+    <input name="c++:" type="checkbox" id="c++">
+    <label for="c++">C++</label>
+
+    <input name="Java:" type="checkbox" id="java">
+    <label for="java">Java</label>
+
+    <input name="python:" type="checkbox" id="python">
+    <label for="python">Python</label>
+
+    <input name="html:" type="checkbox" id="html">
+    <label for="html">Html</label>
+
+    <input name="Css:" type="checkbox" id="css">
+    <label for="css">Css</label>
+
+    <input name="Java script:" type="checkbox" id="js">
+    <label for="js">Java script</label>
+
+</div>
+</nav>
+</section>
+</fieldset>
+ 
+ <button class="btn"><fieldset class="btn"><b>Submit</b></fieldset></button>
+
+</nav>
+</form>
+</body>
+</html>

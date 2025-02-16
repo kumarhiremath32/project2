@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: o;
+    box-sizing: border-box;
+
+}
+
+ .field{
+    border-radius: 15px;
+} 
+
+
+
+.head{
+    font-size:40px ;
+    background-color: rgb(10, 2, 2);
+    color: aliceblue;
+    border-radius: 15px;
+    padding: 5px;
+    padding-bottom:10px; 
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(https://www.shutterstock.com/image-vector/application-smartphone-business-graph-analytics-600nw-1583248045.jpg);
+
+    
+}
+
+.personal-feild{
+     
+    padding-bottom:20px ;
+    padding-right:10px ; 
+    border-radius:5px ;
+    background-image: url(https://www.shutterstock.com/image-vector/application-smartphone-business-graph-analytics-600nw-1583248045.jpg);
+    background-size: 120%;
+    border-radius: 15px;
+    
+}
+ .personal-input{
+    padding: 10px;
+    width: 99%;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right:10px ;
+    border-radius:5px ;
+} 
+.personal-label{
+    display: block;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+ 
+.education-head{
+    font-size:40px ;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 15px;
+    padding: 5px;
+    padding-bottom:10px; 
+    text-align: center;
+    background-image: url(https://www.shutterstock.com/image-vector/application-smartphone-business-graph-analytics-600nw-1583248045.jpg);
+  
+     
+    
+}
+
+.education-field{
+    border-radius:5px ;
+    background-image: url(https://www.shutterstock.com/image-vector/application-smartphone-business-graph-analytics-600nw-1583248045.jpg);
+   background-size: 120%;
+
+
+
+}
+.department{
+font-size: 20px;
+font-family: 'Courier New', Courier, monospace;
+margin-left: 10px;
+margin-bottom:-30px ;
+color: #ffffff;
+
+
+}
+
+.department-lead{
+   font-size:20px ;
+   color: #ffffff;
+}
+
+.eduction-card{
+    margin-left:10px ;
+   
+   
+}
+
+.yop{
+    font-size: 20px;
+font-family: 'Courier New', Courier, monospace;
+color: #ffffff;
+margin-bottom:30px ;
+margin-top:30px ;
+
+
+}
+.skill{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top:50px ;
+    margin-bottom:-35px ;
+    color: #ffffff;
+}
+.skill-lead{
+    font-size:20px ;
+    color:#ffffff;
+    
+   
+}
+.back{
+    background-image: url(https://cdn.vectorstock.com/i/preview-1x/17/02/hud-interface-stylized-drawing-a-monitor-vector-27121702.jpg);
+    background-size: 100%;
+    border-radius: 15px;
+    padding-bottom:20px ;
+   
+   
+
+}
+
+
+
+.body{
+    background-image: url(https://cdn.vectorstock.com/i/preview-1x/17/02/hud-interface-stylized-drawing-a-monitor-vector-27121702.jpg);
+    margin-right:10px ;
+}
+
+.btn{
+    color: #ffffff;
+    background-color: rgb(242, 245, 238);
+    border-radius: 15px;
+    font-size: 35px;
+    background-image: url(https://cdn.vectorstock.com/i/preview-1x/17/02/hud-interface-stylized-drawing-a-monitor-vector-27121702.jpg);
+    
+    
+}
+
+
+.submit-border{
+    color: rgb(240, 233, 233);
+    padding-left:5px ;
+    padding-right:5px ;
+    border-radius: 12px;
+}
+
+
+    
+     
+
